@@ -1,0 +1,104 @@
+Scenario 1: Filter Option: ‘Clinic Name’ Field à Filterable Account List with Search Behavior is Present - Working as Expected 
+
+SC1A: Technician – Events – In Queue (Filter) ‘Clinic Name’ Field à Filterable Account List with Search  - Working as Expected 
+
+SC1B: Technician – Events – Pending (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1C: Technician – Reports – In Queue (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1D: Technician – Enrollments (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1E: Technician – Contact – Call Log (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1F: Billing – Final Reports (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1G: Billing – Claims Submitted (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1H: Billing – Claims Paid (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1I: Regression: Clinic – Enrollments (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1J: Regression: Clinic – Reports (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1K: User Management (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+SC1L: Device Management (Filter) ‘Clinic Name’ Field à Filterable Account List with Search - Working as Expected 
+
+Scenario 2: ‘Clinic Name’ Field à Filterable Account List with Seach Behavior - Working as Expected 
+
+SC2A: Regression: Select 1 Clinic à Filter Results by Clinic - Working as Expected 
+
+SC2B: Select Clinic à Do Not Disable other Clinics in Clinic Menu (Allow to select more) - Working as Expected 
+
+SC2C: Select Clinic(s) à View Filterable Account List à Selected Clinic(s) are Shaded in Clinic Menu - Working as Expected 
+
+SC2D: Select Parent Clinic à Parent + All Child Location Clinics will be Shaded (see above) - Working as Expected 
+
+SC2E: Regression: Select Parent Clinic à Filter Results by All Child Location Clinics - Working as Expected 
+
+SC2F: Select Multiple Clinics à Filter Results by Multiple Clinics Selected - Working as Expected 
+
+SC2G: Select Multiple Clinics (More than 3) à Show Vertical Scroll Bar within Clinic Name Filter (Stays at Top of Scroll) - Working as Expected 
+
+SC2H: Select Multiple Locations within a Parent Clinic à Filter Results Only by Locations Selected (Allow for more Selection) - Working as Expected 
+
+SC2I: Select Child Location Clinic à Then Select Parent Clinic à Child Selection is removed, Parent Selection Retained (Selects all Child Clinics) - Working as Expected 
+
+SC2J: Regression: Validate Above Behavior on Technician Side (Events, Reports, Enrollments, Call Log, Billing) - Working as Expected 
+
+SC2K: Regression: Validate Above Behavior on Clinic Side (Enrollments + Reports) - Working as Expected 
+
+SC2L: Regression: Validate Above Behavior in User Management + Device Management - Working as Expected 
+
+ 
+
+ 
+
+Scenario 3: Top Level Filterable Account List is Applied à ‘Clinic Name’ Field à Filterable Account List with Seach à Filters Clinic Menu based on Clinics within Top Level Selection - Working as Expected 
+
+(Shows Subset of that Account + Sub Locations) à Anywhere with ‘Clinic Name’ field à Filterable Account List with Search  
+
+
+Technician + Clinic Side Filter Options (Anywhere there is a Filter Search)
+Account drop-down
+    Device Management 
+    Account Management 
+    User Management
+
+Clinic Side 
+    Clinic - Enrollments - Active 
+    Clinic - Enrollments - Completed 
+    Clinic - Events - Unresolved Filter Options 
+    Clinic - Events - Unresolved - Bulk View Checkbox - Filter Options 
+    Clinic - Events - Viewed 
+    Clinic - Reports 
+
+Technician Side 
+    Technician - Events - In Queue
+    Technician - Event Detail - ECGs (Automatic Filter Applied Based on Onset/Offset Time) 
+    Technician - Events - Pending 
+    Technician - Reports - In Queue 
+    Technician - Enrollments
+    Technician - Enrollment Detail - ECGs 
+    Technician - Contact - Call Logs 
+    Technician - Contact - Provider Notification - Open 
+    Technician - Contact - Provider Notification - Completed 
+    Technician - Contact - Patient Notification - Open
+    Technician - Contact - Provider Notification - Completed
+    Technician - Contact - Fax 
+    Technician Billing / QA Tab (Pending) 
+
+
+Device Management Filter Options 
+Device ID (text) 
+Device Model (drop-down) 
+Status (Available, Enrolled, Checked-out, Active, Finalized, Ended) 
+
+
+
+
+
+
+
+
+
